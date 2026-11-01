@@ -42,29 +42,29 @@ My academic background spans **Computer Engineering and Physics at Koç Universi
 
 | Project | Language | Explore |
 | :--- | :--- | :--- |
-| [Scalar Autograd Lab](https://github.com/oonacitarhan/scalar-autograd-lab) | Python | Reverse-mode differentiation, gradient checks, and a trainable regression example. |
-| [Lexical Retrieval Lab](https://github.com/oonacitarhan/lexical-retrieval-lab) | Python | BM25 passage ranking with explicit source attribution. |
-| [Bandit Policy Bench](https://github.com/oonacitarhan/bandit-policy-bench) | Python | Epsilon-greedy and UCB1, seeded trials, and pseudo-regret. |
-| [Quantum Kernel Sketch](https://github.com/oonacitarhan/quantum-kernel-sketch) | Python | A product-state fidelity kernel and a small classification example. |
+| [Scalar Autograd Lab](https://github.com/oonacitarhan/scalar-autograd-lab) | Python | Scalar reverse-mode differentiation, a multilayer perceptron, finite-difference checks, and XOR training. |
+| [Lexical Retrieval Lab](https://github.com/oonacitarhan/lexical-retrieval-lab) | Python | BM25 passage ranking, overlapping chunks, corpus persistence, and MRR/recall evaluation. |
+| [Bandit Policy Bench](https://github.com/oonacitarhan/bandit-policy-bench) | Python | Epsilon-greedy, UCB1, Thompson sampling, repeated seeded trials, and uncertainty summaries. |
+| [Quantum Kernel Sketch](https://github.com/oonacitarhan/quantum-kernel-sketch) | Python | A product-state fidelity kernel, trainable kernel perceptron, and held-out baseline comparison. |
 
 #### Quantum physics & algorithms
 
 | Project | Language | Explore |
 | :--- | :--- | :--- |
-| [Qubit State Lab](https://github.com/oonacitarhan/qubit-state-lab) | Python | Statevectors, gates, Bell states, and measurement probabilities. |
-| [Ising Exact](https://github.com/oonacitarhan/ising-exact-cpp) | C++ | Exact enumeration of a periodic Ising chain and thermal observables. |
-| [A-Star Grid](https://github.com/oonacitarhan/astar-grid-cpp) | C++ | Grid pathfinding with a shortest-path baseline. |
-| [Experiment Queue](https://github.com/oonacitarhan/experiment-queue-java) | Java | Dependency-aware priority scheduling, cycle detection, and deterministic ordering. |
+| [Qubit State Lab](https://github.com/oonacitarhan/qubit-state-lab) | Python | JSON-defined circuits, statevectors, Hadamard/X/RY/CX gates, Z observables, and seeded shot sampling. |
+| [Ising Exact](https://github.com/oonacitarhan/ising-exact-cpp) | C++ | Field-dependent Ising-chain thermodynamics, fluctuation observables, temperature sweeps, and CMake builds. |
+| [A-Star Grid](https://github.com/oonacitarhan/astar-grid-cpp) | C++ | Reusable grid planning, map-file input, route validation, and uniform-cost cross-checks on seeded grids. |
+| [Experiment Queue](https://github.com/oonacitarhan/experiment-queue-java) | Java | Job-file input, dependency-aware priority order, cycle detection, and critical-path timing. |
 
 #### Robotics
 
 | Project | Language | Explore |
 | :--- | :--- | :--- |
-| [PID Control Playground](https://github.com/oonacitarhan/pid-control-playground) | Python | Motor-plant simulation, output saturation, and conditional anti-windup. |
-| [Differential Drive Odometry](https://github.com/oonacitarhan/differential-drive-odometry) | C++ | Constant-curvature wheel-increment integration and pose checks. |
-| [Robot Command Scheduler](https://github.com/oonacitarhan/robot-command-scheduler) | Java | Command lifecycles, subsystem ownership, interruption, and cancellation. |
+| [PID Control Playground](https://github.com/oonacitarhan/pid-control-playground) | Python | Motor-plant simulation, anti-windup, disturbance injection, tracking metrics, and CSV trace export. |
+| [Differential Drive Odometry](https://github.com/oonacitarhan/differential-drive-odometry) | C++ | Calibrated encoder-log replay, constant-curvature pose integration, and trajectory regression checks. |
+| [Robot Command Scheduler](https://github.com/oonacitarhan/robot-command-scheduler) | Java | Timed commands, sequences, subsystem ownership, deferred callback scheduling, and lifecycle traces. |
 
-These are small, inspectable learning projects. Robotics examples run in simulation and are independent of my team work; quantum examples make no claim of quantum advantage.
+The collection has **200 commits across 11 multi-file projects** as of 2026-11-01. Local source builds, regression checks, and documented CLI examples pass. These remain inspectable learning projects. Robotics examples run in simulation and are independent of my team work; quantum examples make no claim of quantum advantage.
 
 ### Research writing
 
